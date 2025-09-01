@@ -1,0 +1,84 @@
+
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Card Section Styles */
+.card {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-left: 4px solid #007BFF;
+}
+
+/* Button Styling */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #ddd;
+  border-top: 1px solid #bbb;
+}
